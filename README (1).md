@@ -79,12 +79,6 @@ for пиксель (j,k):
 cv2.medianBlur(img, 7)  # медиана в окне 7×7, убирает шум
 ```
 
-## Результаты
-- Бинарная маска мыши на каждом кадре.
-- Красная точка — центр масс.
-- График траектории движения мыши.
-- Видео с наложенной траекторией (`myvideo.avi`).
-
 <img width="814" height="678" alt="изображение" src="https://github.com/user-attachments/assets/32c032d1-436b-4690-9245-59a175155324" />
 
 <img width="587" height="221" alt="изображение" src="https://github.com/user-attachments/assets/318e64e9-7279-48bd-8a93-521467cf8d14" />
